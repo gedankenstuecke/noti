@@ -38,8 +38,18 @@ eSpeak.
 
 ## Install
 
-Download the standalone binary for your OS and architecture from the [releases
-page]. Then, add it to your `PATH`.
+### Download binary
+
+Download the latest release for your OS and architecture from the
+[releases page]. Then, add it to your `PATH`.
+
+```
+# OS X
+curl -LOk https://github.com/variadico/noti/releases/download/v2.0.0-rc.1/noti2.0.0-rc.1.darwin-amd64.tar.gz
+
+# Linux
+curl -LOk https://github.com/variadico/noti/releases/download/v2.0.0-rc.1/noti2.0.0-rc.1.linux-amd64.tar.gz
+```
 
 ### Alternative
 
