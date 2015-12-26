@@ -3,8 +3,8 @@
 // Package espeak can be used to synthesize speech using eSpeak on Linux and
 // FreeBSD.
 //
-// To compile this package, you'll need to install the eSpeak library. On
-// Ubuntu, you can install it with this command.
+// To compile this package, you'll need to install libespeak. On Ubuntu, you can
+// install it with this command.
 //    sudo apt-get install libespeak-dev
 package espeak
 

@@ -4,7 +4,9 @@
 // FreeBSD. You'll need to have the Gnome desktop notification server running to
 // receive notifications.
 //
-// To compile this package locally, you'll require libnotify to be installed.
+// To compile this package, you'll need to install libnotify. On Ubuntu, you can
+// install it with this command.
+//    sudo apt-get install libnotify-dev libgtk2.0-dev
 package libnotify
 
 /*

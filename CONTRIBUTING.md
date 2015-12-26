@@ -52,7 +52,6 @@ Noti uses cgo for most notification types. Packages that use cgo have a build
 tag to protect against compiling on the wrong operating system. In addition,
 you'll need to have the right C dependencies installed to compile Noti.
 
-
 ##### OS X
 
 The following notification types are specific to OS X.
@@ -61,7 +60,7 @@ The following notification types are specific to OS X.
 * package nsuser
 
 Lucky for you, Cocoa comes installed with OS X. So, you won't have to install
-anything  extra.
+anything extra.
 
 ##### Linux and FreeBSD
 
@@ -70,11 +69,13 @@ The following notification types are specific to Linux and FreeBSD.
 * package espeak
 * package libnotify
 
-On Ubuntu 14.04, you can run this command to install the required dependencies.
+On Ubuntu 14.04, you can install the dependencies with these commands.
 
 ```
 sudo apt-get install libespeak-dev
+
 sudo apt-get install libnotify-dev
+sudo apt-get install libgtk2.0-dev
 ```
 
 #### Download source
