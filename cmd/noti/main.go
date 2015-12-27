@@ -90,10 +90,6 @@ func main() {
 		if err := pushbulletNotify(*title, *message); err != nil {
 			log.Fatal(err)
 		}
-	} else {
-		if err := notify(*title, *message); err != nil {
-			log.Fatal(err)
-		}
 	}
 }
 
